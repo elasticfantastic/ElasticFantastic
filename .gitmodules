@@ -1,0 +1,3 @@
+[submodule "apps/LogGenerator"]
+	path = apps/LogGenerator
+	url = https://github.com/elasticfantastic/LogGenerator.git

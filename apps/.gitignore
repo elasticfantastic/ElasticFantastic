@@ -1,0 +1,8 @@
+### Apps gitignore
+
+# LogGenerator is defined as a submodule
+LogGenerator/
+
+
+# Dummy system should be ignored
+LogGenerator_system/
