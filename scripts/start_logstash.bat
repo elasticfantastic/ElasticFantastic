@@ -13,4 +13,4 @@ IF "%config_name%" == "" (
 )
 
 cd logstash-6.6.0\bin\
-start logstash.bat -f ../config/%config_name%
+call logstash.bat -f ../config/%config_name%

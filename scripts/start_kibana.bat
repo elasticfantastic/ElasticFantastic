@@ -4,4 +4,4 @@ cd ../
 
 REM Kibana
 
-start kibana-6.6.0\bin\kibana.bat
+call kibana-6.6.0\bin\kibana.bat
