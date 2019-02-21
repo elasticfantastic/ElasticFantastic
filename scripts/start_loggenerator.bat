@@ -15,8 +15,8 @@ xcopy "apps\LogGenerator\loggenerator-client\target\loggenerator-client-%VERSION
 
 REM cd apps/LogGenerator_system
 
-start cmd /k "java -jar loggenerator-server-%VERSION%.jar"
+start cmd /k "java -jar loggenerator-server-%VERSION%.jar resources/logs/log_server1.txt"
 timeout /t 10 /nobreak > NUL
-start cmd /k "java -jar loggenerator-client-%VERSION%.jar"
+start cmd /k "java -jar loggenerator-client-%VERSION%.jar resources/logs/log_client1.txt"
 
 REM cd ../../scripts

@@ -10,6 +10,7 @@ services:
         ELK_VERSION: $ELK_VERSION
     volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+      - ./elasticsearch/data:/usr/share/elasticsearch/data:rw
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -26,6 +27,7 @@ services:
         ELK_VERSION: $ELK_VERSION
     volumes:
       - ./logstash/config:/usr/share/logstash/config:ro
+      - ./logstash/data:/usr/share/logstash/data:rw
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
       - ./resources/logs:/logs:rw
     ports:

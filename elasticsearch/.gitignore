@@ -1,0 +1,12 @@
+# Elasticsearch gitignore
+
+bin/
+data/
+lib/
+logs/
+modules/
+plugins/
+
+LICENSE.*
+NOTICE.*
+README.textile
