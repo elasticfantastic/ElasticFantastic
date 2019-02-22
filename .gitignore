@@ -1,3 +1,4 @@
 ### Elasticfantastic gitignore
 
 *.jar
+*sincedb*

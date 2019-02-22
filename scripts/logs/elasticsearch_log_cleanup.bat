@@ -6,7 +6,7 @@ REM Cd to root of Elasticfantastic
 cd ../../
 
 echo Deleting sincedb file...
-del "logstash\data\plugins\inputs\file\*" /F /Q
+del "resources\logs\sincedb\*sincedb*" /F /Q
 
 echo\
 
