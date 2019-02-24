@@ -1,0 +1,1 @@
+This folder needs to be present on version control to enable Docker to map volumes

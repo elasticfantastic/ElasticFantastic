@@ -1,7 +1,10 @@
 # Elasticsearch gitignore
 
 bin/
-data/
+
+# Root data folder needs to be present on version control to enable Docker to map volumes
+data/nodes
+
 lib/
 logs/
 modules/

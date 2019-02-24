@@ -1,4 +1,4 @@
 ### Elasticfantastic gitignore
 
 *.jar
-*sincedb*
+resources/logs/sincedb/*sincedb*
