@@ -14,7 +14,7 @@ REM Cd back to scripts/logs
 cd scripts\logs
 
 echo Emptying index content...
-call lib/winhttpjs.bat http://192.168.99.100:9200/%index%/_delete_by_query -method POST -header elasticsearch_log_cleanup_headers.txt -body-file elasticsearch_log_cleanup_body.json
+call lib/winhttpjs.bat http://localhost:9200/%index%/_delete_by_query -method POST -header elasticsearch_log_cleanup_headers.txt -body-file elasticsearch_log_cleanup_body.json
 
 echo\
 

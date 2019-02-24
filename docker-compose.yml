@@ -15,7 +15,7 @@ services:
       - "9200:9200"
       - "9300:9300"
     environment:
-      ES_JAVA_OPTS: "-Xms2g -Xmx2g"
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
     networks:
       - elk
 
@@ -34,7 +34,7 @@ services:
       - "5000:5000"
       - "9600:9600"
     environment:
-      LS_JAVA_OPTS: "-Xms1g -Xmx1g"
+      LS_JAVA_OPTS: "-Xms512m -Xmx512m"
     networks:
       - elk
     depends_on:
