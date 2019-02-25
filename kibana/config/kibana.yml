@@ -4,5 +4,7 @@
 #
 server.name: kibana
 server.host: "0"
-elasticsearch.startupTimeout: 30000
+elasticsearch.pingTimeout: 60000
+elasticsearch.requestTimeout: 60000
+elasticsearch.startupTimeout: 60000
 elasticsearch.url: http://elasticsearch:9200
