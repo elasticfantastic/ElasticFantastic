@@ -14,3 +14,5 @@ IF "%config_name%" == "" (
 
 cd logstash-6.6.0\bin\
 call logstash.bat -f ../config/%config_name%
+
+SET /P dummy="Hit ENTER to exit..."
