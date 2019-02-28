@@ -1,0 +1,5 @@
+### Elasticfantastic gitignore
+
+*.jar
+resources/logs/sincedb/*sincedb*
+resources/orders/orders_last_run
