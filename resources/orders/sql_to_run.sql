@@ -9,5 +9,5 @@ join Product p on ol.productNbr = p.productNbr
 join Customer c on c.ssn = o.customerSSN 
 where time > :sql_last_value 
 group by
-	c.ssn, c.name, c.street, c.city, c.zip, o.orderNbr, p.productNbr, 
-	ol.quantity, o.time, p.productName, p.price
+	c.ssn, o.time, c.name, c.street, c.city, c.zip, o.orderNbr, p.productNbr, 
+	ol.quantity, p.productName, p.price
