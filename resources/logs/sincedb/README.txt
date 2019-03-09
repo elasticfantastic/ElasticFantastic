@@ -1,0 +1,1 @@
+Dummy file to enable version control of folder resources/logs/sincedb
